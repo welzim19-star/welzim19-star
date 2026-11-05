@@ -4,7 +4,7 @@
 
 <div align="center">
   <h1>WEL</h1>
-  <p><strong>Android Software Engineer & Systems Architect | Kotlin, C++20, NDK & JNI | Low-Latency & Mobile Performance</strong></p>
+  <p><strong>Android & Systems Software Engineer | Kotlin, C++20, NDK & JNI | Low-Level Architecture & Distributed Systems</strong></p>
   
   <p>
     <a href="https://github.com/welzim19-star"><img src="https://img.shields.io/badge/GitHub-welzim19--star-black?logo=github" alt="GitHub"></a>
@@ -31,8 +31,8 @@ I engineer resilient, audit-grade software with a strong focus on defensive prog
 
 | Domain | Core Technologies & Tooling | Architectural Patterns |
 | :--- | :--- | :--- |
-| **Systems & Low-Level** | C++20, NDK r26, JNI, Kotlin, Reverse Engineering, POSIX, Memory Mapping (`mmap`) | Zero-Copy Buffers, Binary FAT Filesystems, Native ABIs |
-| **Backend & Distributed** | Python (FastAPI, Asyncio), Node.js (ESM), WebSockets (Socket.io), REST APIs | Event-Driven Architecture, ABAC Policies, Fail-Closed Gates |
+| **Systems & Low-Level** | C++20, x86_64 Detours (MinHook), NDK r26, JNI, Kotlin, Reverse Engineering, POSIX, Memory Mapping (`mmap`) | Zero-Copy Buffers, In-Memory Detours, Binary FAT Filesystems, Native ABIs |
+| **Backend & Distributed** | Python (FastAPI, Asyncio), Node.js (ESM), WebSockets (Socket.io), REST APIs | Event-Driven Architecture, ABAC Policies, Fail-Closed Gates, C2 Hubs |
 | **Security & DevSecOps** | Envelope Encryption (KMS), AES-256-GCM, HMAC Integrity, Bandit, Ruff, SAST/SCA | Zero-Trust Pipelines, Audit Trails (JSONL / SQLite WAL), PII Sanitization |
 | **Mobile & Frontend** | Android 14 (API 34), React 18, TypeScript, Tailwind CSS, Tauri, Capacitor | Scoped Storage (SAF), Hardware Video Streaming, Offline-First Sync |
 | **Storage & Data** | SQLite (WAL Mode), PostgreSQL, Redis, In-Memory Ring Buffers | ACID Atomic Journaling, Idempotent Event Reconciliation |
@@ -76,6 +76,36 @@ Here is a curated selection of open-source architectures demonstrating core engi
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/mario-physics-hook">🔧 Mario Physics Hook</a></h4>
+      <p><em>Native Memory Hook & Physics Engine Bridge for Elden Ring.</em></p>
+      <ul>
+        <li>C++20, x86_64 assembly detours via MinHook, libsm64 core</li>
+        <li>Trampoline detours overriding Havok character controller memory</li>
+        <li>Multi-rate 30Hz-to-60Hz physics clock synchronization</li>
+        <li>Dynamic collision surface injection into process memory</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Hook-MinHook%20x64-red" alt="Hook">
+        <img src="https://img.shields.io/badge/Target-AAA%20PE%20Process-purple" alt="Target">
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/minebot-c2-engine">🤖 Minebot C2 Engine</a></h4>
+      <p><em>Autonomous Agent & Command & Control (C2) Orchestrator for Minecraft Java.</em></p>
+      <ul>
+        <li>Node.js 18+, Mineflayer, Socket.io, Express Web HUD</li>
+        <li>Anti-freeze subterranean mining routines and A* 3D navigation</li>
+        <li>Reactive combat, automatic threat mitigation, and weapon sorting</li>
+        <li>Zero-configuration LAN multicast UDP world discovery</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Protocol-Mineflayer%20Java-green" alt="Protocol">
+        <img src="https://img.shields.io/badge/Interface-Dual%20CLI%20%2B%20Web-orange" alt="Interface">
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h4><a href="https://github.com/welzim19-star/archon-v">🛡️ Archon-V</a></h4>
       <p><em>Bank-Grade High-Availability Security Interceptor & API Gateway.</em></p>
       <ul>
@@ -105,7 +135,21 @@ Here is a curated selection of open-source architectures demonstrating core engi
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/bedrock-autonomous-agent">⚡ Bedrock Autonomous Agent</a></h4>
+      <p><em>Native UDP Protocol Agent & Finite State Machine for Bedrock Dedicated Server.</em></p>
+      <ul>
+        <li>Node.js, <code>bedrock-protocol</code>, UDP RakNet wire stream</li>
+        <li>Dynamic version negotiation for BDS 1.26.x releases</li>
+        <li>Exponential backoff reconnection logic preventing flood bans</li>
+        <li>Experimental research on packet-driven autonomous kinematics</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Status-Experimental%20R%26D-orange" alt="Status">
+        <img src="https://img.shields.io/badge/Wire-Native%20UDP-blue" alt="Wire">
+      </p>
+    </td>
+    <td width="50%" valign="top">
       <h4><a href="https://github.com/welzim19-star/pw-opsdesk-showcase">🏢 PW OpsDesk Architecture</a></h4>
       <p><em>Enterprise Operations & ITSM Dispatch Architecture Showcase.</em></p>
       <ul>

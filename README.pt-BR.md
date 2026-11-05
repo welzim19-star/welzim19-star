@@ -4,7 +4,7 @@
 
 <div align="center">
   <h1>WEL</h1>
-  <p><strong>Engenheiro de Software Android & Arquiteto de Sistemas | Kotlin, C++20, NDK & JNI | Baixa Latência & Performance Mobile</strong></p>
+  <p><strong>Engenheiro de Software Android & Sistemas | Kotlin, C++20, NDK & JNI | Arquitetura de Baixo Nível & Sistemas Distribuídos</strong></p>
   
   <p>
     <a href="https://github.com/welzim19-star"><img src="https://img.shields.io/badge/GitHub-welzim19--star-black?logo=github" alt="GitHub"></a>
@@ -22,7 +22,7 @@ Desenvolvo software resiliente e auditável com forte ênfase em programação d
 
 * **Isolamento Galvânico & Desacoplamento:** Separação estrita entre fronteiras públicas não confiáveis e a lógica interna de execução, mitigando falhas sistêmicas em cascata.
 * **Padrões Seguros de Falha (*Fail-Secure* & *Fail-Closed*):** Qualquer anomalia criptográfica, falha de asserção ou validação de fronteira encerra a conexão imediatamente, sem expor rastros da infraestrutura.
-* **Desempenho com Acesso Direto ao Hardware:** Eliminação de camadas intermediárias por meio de buffers de cópia zero (*zero-copy*), pontes assíncronas JNI, codificação por GPU (`MediaCodec`) e mapeamento direto de memória (`mmap`).
+* **Desempenho com Acesso Direto ao Hardware:** Eliminação de camadas intermediárias por meio de buffers de cópia zero (*zero-copy*), pontes assíncronas JNI, codificação por GPU (`MediaCodec`), detours em memória de processo (MinHook) e mapeamento direto (`mmap`).
 * **Concorrência Determinística:** Pipelines assíncronos orientados a eventos, operações de I/O não bloqueantes e loops de execução com isolamento de threads para garantir vazão previsível.
 
 ---
@@ -31,8 +31,8 @@ Desenvolvo software resiliente e auditável com forte ênfase em programação d
 
 | Domínio | Tecnologias & Ferramental | Padrões Arquiteturais |
 | :--- | :--- | :--- |
-| **Sistemas & Baixo Nível** | C++20, NDK r26, JNI, Kotlin, Engenharia Reversa, POSIX, Mapeamento de Memória (`mmap`) | Buffers Zero-Copy, Sistemas de Arquivos FAT Binários, ABIs Nativas |
-| **Backend & Sistemas Distribuídos** | Python (FastAPI, Asyncio), Node.js (ESM), WebSockets (Socket.io), APIs REST | Arquitetura Orientada a Eventos, Políticas ABAC, Portais Fail-Closed |
+| **Sistemas & Baixo Nível** | C++20, Detours x86_64 (MinHook), NDK r26, JNI, Kotlin, Engenharia Reversa, POSIX, Mapeamento de Memória (`mmap`) | Buffers Zero-Copy, Injeção em Memória, Sistemas FAT Binários, ABIs Nativas |
+| **Backend & Sistemas Distribuídos** | Python (FastAPI, Asyncio), Node.js (ESM), WebSockets (Socket.io), APIs REST | Arquitetura Orientada a Eventos, Políticas ABAC, Portais Fail-Closed, Hubs C2 |
 | **Segurança & DevSecOps** | Criptografia Envelope (KMS), AES-256-GCM, Integridade HMAC, Bandit, Ruff, SAST/SCA | Pipelines Zero-Trust, Trilhas de Auditoria (JSONL / SQLite WAL), Sanitização de Dados |
 | **Mobile & Frontend** | Android 14 (API 34), React 18, TypeScript, Tailwind CSS, Tauri, Capacitor | Armazenamento com Escopo (SAF), Streaming de Vídeo por Hardware, Sincronização Offline-First |
 | **Armazenamento & Dados** | SQLite (Modo WAL), PostgreSQL, Redis, Buffers Circulares em Memória | Registro Atômico ACID, Reconciliação Idempotente de Eventos |
@@ -76,6 +76,36 @@ Seleção de projetos de código aberto que demonstram competências práticas d
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/mario-physics-hook">🔧 Mario Physics Hook</a></h4>
+      <p><em>Hook de Memória Nativo em C++ e Ponte de Física para Elden Ring.</em></p>
+      <ul>
+        <li>C++20, detours de assembly x86_64 via MinHook, core libsm64</li>
+        <li>Trampolins interceptando a memória do Havok Character Controller</li>
+        <li>Sincronização de relógio de física multi-taxa (30Hz para 60Hz)</li>
+        <li>Injeção dinâmica de malhas de colisão na memória do processo</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Hook-MinHook%20x64-red" alt="Hook">
+        <img src="https://img.shields.io/badge/Alvo-Processo%20AAA%20PE-purple" alt="Alvo">
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/minebot-c2-engine">🤖 Minebot C2 Engine</a></h4>
+      <p><em>Agente Autônomo e Orquestrador Command & Control (C2) para Minecraft Java.</em></p>
+      <ul>
+        <li>Node.js 18+, Mineflayer, Socket.io, HUD Web Express</li>
+        <li>Rotinas de mineração subterrânea anti-freeze e pathfinding 3D A*</li>
+        <li>Combate reativo, mitigação de ameaças e seleção de armas</li>
+        <li>Autodescoberta sem configuração em LAN via broadcast UDP</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Protocolo-Mineflayer%20Java-green" alt="Protocolo">
+        <img src="https://img.shields.io/badge/Interface-Dual%20CLI%20%2B%20Web-orange" alt="Interface">
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h4><a href="https://github.com/welzim19-star/archon-v">🛡️ Archon-V</a></h4>
       <p><em>Interceptor de Segurança e API Gateway de Alta Disponibilidade para Padrão Bancário.</em></p>
       <ul>
@@ -105,7 +135,21 @@ Seleção de projetos de código aberto que demonstram competências práticas d
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/bedrock-autonomous-agent">⚡ Bedrock Autonomous Agent</a></h4>
+      <p><em>Agente Nativo UDP e Máquina de Estados para Bedrock Dedicated Server (BDS).</em></p>
+      <ul>
+        <li>Node.js, <code>bedrock-protocol</code>, stream binário UDP RakNet</li>
+        <li>Negociação dinâmica de versões para servidores BDS 1.26.x</li>
+        <li>Lógica de reconexão com backoff exponencial contra flood</li>
+        <li>Pesquisa experimental em cinemática autônoma orientada a pacotes</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Status-Pesquisa%20Experimental-orange" alt="Status">
+        <img src="https://img.shields.io/badge/Wire-UDP%20Nativo-blue" alt="Wire">
+      </p>
+    </td>
+    <td width="50%" valign="top">
       <h4><a href="https://github.com/welzim19-star/pw-opsdesk-showcase">🏢 Arquitetura PW OpsDesk</a></h4>
       <p><em>Especificação Arquitetural de Central Operacional e Despacho de Campo B2B.</em></p>
       <ul>
