@@ -4,12 +4,12 @@
 
 <div align="center">
   <h1>WEL</h1>
-  <p><strong>Engenheiro de Software & Arquiteto de Sistemas | Baixo Nível, Segurança & Sistemas Distribuídos de Alta Performance</strong></p>
+  <p><strong>Engenheiro de Software Android & Arquiteto de Sistemas | Kotlin, C++20, NDK & JNI | Baixa Latência & Performance Mobile</strong></p>
   
   <p>
     <a href="https://github.com/welzim19-star"><img src="https://img.shields.io/badge/GitHub-welzim19--star-black?logo=github" alt="GitHub"></a>
     <a href="https://github.com/Lorinmr-dev"><img src="https://img.shields.io/badge/Organização-Lorinmr--dev-0969da?logo=github" alt="Organização"></a>
-    <img src="https://img.shields.io/badge/Foco-DevSecOps%20%7C%20Kernel%20%26%20Hardware%20%7C%20Arquitetura%20Crítica-brightgreen" alt="Foco">
+    <img src="https://img.shields.io/badge/Foco-Android%20NDK%20%7C%20C%2B%2B%20%7C%20Streaming%20Baixa%20Lat%C3%AAncia-brightgreen" alt="Foco">
     <img src="https://img.shields.io/badge/Localização-Brasil-blue" alt="Localização">
   </p>
 </div>
@@ -46,20 +46,6 @@ Seleção de projetos de código aberto que demonstram competências práticas d
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/welzim19-star/archon-v">🛡️ Archon-V</a></h4>
-      <p><em>Interceptor de Segurança e API Gateway de Alta Disponibilidade para Padrão Bancário.</em></p>
-      <ul>
-        <li>FastAPI, Python 3.12+, Uvicorn</li>
-        <li>Defesa contra ameaças com Token Bucket O(1) e validador de políticas ABAC</li>
-        <li>Criptografia de envelope por locatário (KMS) e trilha imutável SHA-256</li>
-        <li>Zero vazamento de stack traces e encerramento estrito em caso de falha</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Cobertura-%3E85%25-brightgreen" alt="Cobertura">
-        <img src="https://img.shields.io/badge/SAST-Bandit%20Aprovado-blue" alt="Bandit">
-      </p>
-    </td>
-    <td width="50%" valign="top">
       <h4><a href="https://github.com/welzim19-star/capivara-emu">🎮 Capivara EMU</a></h4>
       <p><em>Motor de Emulação Retrô Multi-Sistemas de Alta Performance para Android.</em></p>
       <ul>
@@ -71,22 +57,6 @@ Seleção de projetos de código aberto que demonstram competências práticas d
       <p>
         <img src="https://img.shields.io/badge/Performance-60FPS%20Est%C3%A1vel-brightgreen" alt="FPS">
         <img src="https://img.shields.io/badge/Lat%C3%AAncia%20de%20Entrada-%3C4.2ms-blue" alt="Latência">
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/welzim19-star/bastion-core">🛡️ Bastion-Core</a></h4>
-      <p><em>Motor Assíncrono de Auditoria de Rede e Registro Criptográfico Imutável.</em></p>
-      <ul>
-        <li>Python 3.12+, Concorrência com ThreadPool, Zero-PII Sanitizado</li>
-        <li>Ledger imutável encadeado criptograficamente com SHA-256</li>
-        <li>Síntese multi-camadas de inteligência de ativos de rede</li>
-        <li>Varredura sub-segundo de sub-rede e persistência SQLite WAL</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Testes-13%20Aprovados-brightgreen" alt="Testes">
-        <img src="https://img.shields.io/badge/Persist%C3%AAncia-SQLite%20WAL-blue" alt="Persistência">
       </p>
     </td>
     <td width="50%" valign="top">
@@ -101,6 +71,36 @@ Seleção de projetos de código aberto que demonstram competências práticas d
       <p>
         <img src="https://img.shields.io/badge/Lat%C3%AAncia-11.4ms-brightgreen" alt="Latência">
         <img src="https://img.shields.io/badge/Uso%20de%20CPU-%3C3.5%25-blue" alt="CPU">
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/archon-v">🛡️ Archon-V</a></h4>
+      <p><em>Interceptor de Segurança e API Gateway de Alta Disponibilidade para Padrão Bancário.</em></p>
+      <ul>
+        <li>FastAPI, Python 3.12+, Uvicorn</li>
+        <li>Defesa contra ameaças com Token Bucket O(1) e validador de políticas ABAC</li>
+        <li>Criptografia de envelope por locatário (KMS) e trilha imutável SHA-256</li>
+        <li>Zero vazamento de stack traces e encerramento estrito em caso de falha</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Cobertura-%3E85%25-brightgreen" alt="Cobertura">
+        <img src="https://img.shields.io/badge/SAST-Bandit%20Aprovado-blue" alt="Bandit">
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/bastion-core">🛡️ Bastion-Core</a></h4>
+      <p><em>Motor Assíncrono de Auditoria de Rede e Registro Criptográfico Imutável.</em></p>
+      <ul>
+        <li>Python 3.12+, Concorrência com ThreadPool, Zero-PII Sanitizado</li>
+        <li>Ledger imutável encadeado criptograficamente com SHA-256</li>
+        <li>Síntese multi-camadas de inteligência de ativos de rede</li>
+        <li>Varredura sub-segundo de sub-rede e persistência SQLite WAL</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Testes-13%20Aprovados-brightgreen" alt="Testes">
+        <img src="https://img.shields.io/badge/Persist%C3%AAncia-SQLite%20WAL-blue" alt="Persistência">
       </p>
     </td>
   </tr>

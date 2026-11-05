@@ -4,12 +4,12 @@
 
 <div align="center">
   <h1>WEL</h1>
-  <p><strong>Software Engineer & Systems Architect | Low-Level, Security & High-Performance Distributed Systems</strong></p>
+  <p><strong>Android Software Engineer & Systems Architect | Kotlin, C++20, NDK & JNI | Low-Latency & Mobile Performance</strong></p>
   
   <p>
     <a href="https://github.com/welzim19-star"><img src="https://img.shields.io/badge/GitHub-welzim19--star-black?logo=github" alt="GitHub"></a>
     <a href="https://github.com/Lorinmr-dev"><img src="https://img.shields.io/badge/Organization-Lorinmr--dev-0969da?logo=github" alt="Organization"></a>
-    <img src="https://img.shields.io/badge/Focus-DevSecOps%20%7C%20Kernel%20%26%20Hardware%20%7C%20Critical%20Architecture-brightgreen" alt="Focus">
+    <img src="https://img.shields.io/badge/Focus-Android%20NDK%20%7C%20C%2B%2B%20%7C%20Low--Latency%20Streaming-brightgreen" alt="Focus">
     <img src="https://img.shields.io/badge/Location-Brazil-blue" alt="Location">
   </p>
 </div>
@@ -46,20 +46,6 @@ Here is a curated selection of open-source architectures demonstrating core engi
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/welzim19-star/archon-v">🛡️ Archon-V</a></h4>
-      <p><em>Bank-Grade High-Availability Security Interceptor & API Gateway.</em></p>
-      <ul>
-        <li>FastAPI, Python 3.12+, Uvicorn</li>
-        <li>O(1) Token-Bucket threat shield and ABAC policy validator</li>
-        <li>KMS tenant envelope encryption and SHA-256 immutable audit stream</li>
-        <li>Zero stack trace disclosure and strict fail-secure defaults</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Coverage-%3E85%25-brightgreen" alt="Coverage">
-        <img src="https://img.shields.io/badge/SAST-Bandit%20Pass-blue" alt="Bandit">
-      </p>
-    </td>
-    <td width="50%" valign="top">
       <h4><a href="https://github.com/welzim19-star/capivara-emu">🎮 Capivara EMU</a></h4>
       <p><em>High-Performance Multi-System Retro Emulation Engine for Android.</em></p>
       <ul>
@@ -71,22 +57,6 @@ Here is a curated selection of open-source architectures demonstrating core engi
       <p>
         <img src="https://img.shields.io/badge/Performance-60FPS%20Stable-brightgreen" alt="FPS">
         <img src="https://img.shields.io/badge/Input%20Latency-%3C4.2ms-blue" alt="Latency">
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/welzim19-star/bastion-core">🛡️ Bastion-Core</a></h4>
-      <p><em>High-Throughput Asynchronous Network Audit & Cryptographic Ledger Engine.</em></p>
-      <ul>
-        <li>Python 3.12+, ThreadPool concurrent batching, Zero-PII</li>
-        <li>SHA-256 chained tamper-evident append-only ledger</li>
-        <li>Multi-layer non-invasive device intelligence synthesis</li>
-        <li>Sub-second subnet sweep with SQLite WAL persistence</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Tests-13%20Passing-brightgreen" alt="Tests">
-        <img src="https://img.shields.io/badge/Persistence-SQLite%20WAL-blue" alt="Persistence">
       </p>
     </td>
     <td width="50%" valign="top">
@@ -101,6 +71,36 @@ Here is a curated selection of open-source architectures demonstrating core engi
       <p>
         <img src="https://img.shields.io/badge/Latency-11.4ms-brightgreen" alt="Latency">
         <img src="https://img.shields.io/badge/CPU%20Usage-%3C3.5%25-blue" alt="CPU">
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/archon-v">🛡️ Archon-V</a></h4>
+      <p><em>Bank-Grade High-Availability Security Interceptor & API Gateway.</em></p>
+      <ul>
+        <li>FastAPI, Python 3.12+, Uvicorn</li>
+        <li>O(1) Token-Bucket threat shield and ABAC policy validator</li>
+        <li>KMS tenant envelope encryption and SHA-256 immutable audit stream</li>
+        <li>Zero stack trace disclosure and strict fail-secure defaults</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Coverage-%3E85%25-brightgreen" alt="Coverage">
+        <img src="https://img.shields.io/badge/SAST-Bandit%20Pass-blue" alt="Bandit">
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/bastion-core">🛡️ Bastion-Core</a></h4>
+      <p><em>High-Throughput Asynchronous Network Audit & Cryptographic Ledger Engine.</em></p>
+      <ul>
+        <li>Python 3.12+, ThreadPool concurrent batching, Zero-PII</li>
+        <li>SHA-256 chained tamper-evident append-only ledger</li>
+        <li>Multi-layer non-invasive device intelligence synthesis</li>
+        <li>Sub-second subnet sweep with SQLite WAL persistence</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Tests-13%20Passing-brightgreen" alt="Tests">
+        <img src="https://img.shields.io/badge/Persistence-SQLite%20WAL-blue" alt="Persistence">
       </p>
     </td>
   </tr>
