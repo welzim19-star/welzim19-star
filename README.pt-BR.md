@@ -47,7 +47,7 @@ Seleção de projetos de código aberto que demonstram competências práticas d
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/welzim19-star/archon-v">🛡️ Archon-V</a></h4>
-      <p><em>Interceptor de Segurança e API Gateway de Alta Disponibilidade para Infraestruturas Críticas.</em></p>
+      <p><em>Interceptor de Segurança e API Gateway de Alta Disponibilidade para Padrão Bancário.</em></p>
       <ul>
         <li>FastAPI, Python 3.12+, Uvicorn</li>
         <li>Defesa contra ameaças com Token Bucket O(1) e validador de políticas ABAC</li>
@@ -76,6 +76,20 @@ Seleção de projetos de código aberto que demonstram competências práticas d
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/bastion-core">🛡️ Bastion-Core</a></h4>
+      <p><em>Motor Assíncrono de Auditoria de Rede e Registro Criptográfico Imutável.</em></p>
+      <ul>
+        <li>Python 3.12+, Concorrência com ThreadPool, Zero-PII Sanitizado</li>
+        <li>Ledger imutável encadeado criptograficamente com SHA-256</li>
+        <li>Síntese multi-camadas de inteligência de ativos de rede</li>
+        <li>Varredura sub-segundo de sub-rede e persistência SQLite WAL</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Testes-13%20Aprovados-brightgreen" alt="Testes">
+        <img src="https://img.shields.io/badge/Persist%C3%AAncia-SQLite%20WAL-blue" alt="Persistência">
+      </p>
+    </td>
+    <td width="50%" valign="top">
       <h4><a href="https://github.com/welzim19-star/zero-ping-mirror">⚡ ZeroPingMirror</a></h4>
       <p><em>Motor de Espelhamento de Tela Android e Telemetria em Tempo Real com Latência Ultrabaixa.</em></p>
       <ul>
@@ -89,7 +103,9 @@ Seleção de projetos de código aberto que demonstram competências práticas d
         <img src="https://img.shields.io/badge/Uso%20de%20CPU-%3C3.5%25-blue" alt="CPU">
       </p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
       <h4><a href="https://github.com/welzim19-star/pw-opsdesk-showcase">🏢 Arquitetura PW OpsDesk</a></h4>
       <p><em>Especificação Arquitetural de Central Operacional e Despacho de Campo B2B.</em></p>
       <ul>

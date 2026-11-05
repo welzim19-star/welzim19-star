@@ -76,6 +76,20 @@ Here is a curated selection of open-source architectures demonstrating core engi
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/bastion-core">🛡️ Bastion-Core</a></h4>
+      <p><em>High-Throughput Asynchronous Network Audit & Cryptographic Ledger Engine.</em></p>
+      <ul>
+        <li>Python 3.12+, ThreadPool concurrent batching, Zero-PII</li>
+        <li>SHA-256 chained tamper-evident append-only ledger</li>
+        <li>Multi-layer non-invasive device intelligence synthesis</li>
+        <li>Sub-second subnet sweep with SQLite WAL persistence</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Tests-13%20Passing-brightgreen" alt="Tests">
+        <img src="https://img.shields.io/badge/Persistence-SQLite%20WAL-blue" alt="Persistence">
+      </p>
+    </td>
+    <td width="50%" valign="top">
       <h4><a href="https://github.com/welzim19-star/zero-ping-mirror">⚡ ZeroPingMirror</a></h4>
       <p><em>Ultra-Low-Latency Android Screen Mirroring & Telemetry Engine.</em></p>
       <ul>
@@ -89,7 +103,9 @@ Here is a curated selection of open-source architectures demonstrating core engi
         <img src="https://img.shields.io/badge/CPU%20Usage-%3C3.5%25-blue" alt="CPU">
       </p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
       <h4><a href="https://github.com/welzim19-star/pw-opsdesk-showcase">🏢 PW OpsDesk Architecture</a></h4>
       <p><em>Enterprise Operations & ITSM Dispatch Architecture Showcase.</em></p>
       <ul>
