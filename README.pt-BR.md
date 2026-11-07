@@ -55,6 +55,7 @@ Seleção de projetos de código aberto que demonstram competências práticas d
       </ul>
       <p>
         <a href="https://github.com/welzim19-star/capivara-emu/releases/latest"><img src="https://img.shields.io/badge/Release-APK%20Download-brightgreen?logo=android" alt="APK"></a>
+        <a href="https://github.com/welzim19-star/capivara-emu/actions/workflows/ci.yml"><img src="https://github.com/welzim19-star/capivara-emu/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
         <img src="https://img.shields.io/badge/Performance-60FPS%20Est%C3%A1vel-brightgreen" alt="FPS">
         <img src="https://img.shields.io/badge/Lat%C3%AAncia%20de%20Entrada-%3C4.2ms-blue" alt="Latência">
       </p>
