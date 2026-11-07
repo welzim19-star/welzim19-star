@@ -55,6 +55,7 @@ Here is a curated selection of open-source architectures demonstrating core engi
         <li>Reverse-engineered Sega Dreamcast VMS FAT binary filesystem</li>
       </ul>
       <p>
+        <a href="https://github.com/welzim19-star/capivara-emu/releases/latest"><img src="https://img.shields.io/badge/Release-APK%20Download-brightgreen?logo=android" alt="APK"></a>
         <img src="https://img.shields.io/badge/Performance-60FPS%20Stable-brightgreen" alt="FPS">
         <img src="https://img.shields.io/badge/Input%20Latency-%3C4.2ms-blue" alt="Latency">
       </p>
@@ -69,6 +70,7 @@ Here is a curated selection of open-source architectures demonstrating core engi
         <li>Zero-copy screen capture via OS <code>MediaProjection</code></li>
       </ul>
       <p>
+        <a href="https://github.com/welzim19-star/zero-ping-mirror/releases/latest"><img src="https://img.shields.io/badge/Release-APK%20Download-brightgreen?logo=android" alt="APK"></a>
         <img src="https://img.shields.io/badge/Latency-11.4ms-brightgreen" alt="Latency">
         <img src="https://img.shields.io/badge/CPU%20Usage-%3C3.5%25-blue" alt="CPU">
       </p>
@@ -129,6 +131,7 @@ Here is a curated selection of open-source architectures demonstrating core engi
         <li>Sub-second subnet sweep with SQLite WAL persistence</li>
       </ul>
       <p>
+        <a href="https://github.com/welzim19-star/bastion-core/releases/latest"><img src="https://img.shields.io/badge/Release-Windows%20EXE-blue?logo=windows" alt="EXE"></a>
         <img src="https://img.shields.io/badge/Tests-13%20Passing-brightgreen" alt="Tests">
         <img src="https://img.shields.io/badge/Persistence-SQLite%20WAL-blue" alt="Persistence">
       </p>
