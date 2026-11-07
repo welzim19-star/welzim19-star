@@ -8,7 +8,7 @@
   
   <p>
     <a href="https://github.com/welzim19-star"><img src="https://img.shields.io/badge/GitHub-welzim19--star-black?logo=github" alt="GitHub"></a>
-    <a href="https://github.com/Lorinmr-dev"><img src="https://img.shields.io/badge/Organização-Lorinmr--dev-0969da?logo=github" alt="Organização"></a>
+    <a href="https://github.com/PW-SYSTEM"><img src="https://img.shields.io/badge/Organização-PW--SYSTEM-0969da?logo=github" alt="Organização"></a>
     <img src="https://img.shields.io/badge/Foco-Android%20NDK%20%7C%20C%2B%2B%20%7C%20Streaming%20Baixa%20Lat%C3%AAncia-brightgreen" alt="Foco">
     <img src="https://img.shields.io/badge/Localização-Brasil-blue" alt="Localização">
   </p>
@@ -170,7 +170,7 @@ Seleção de projetos de código aberto que demonstram competências práticas d
 
 ### 🌐 Governança Corporativa & Sistemas Comerciais
 
-Para explorar as arquiteturas corporativas, sistemas de operações de campo em missões críticas e plataformas B2B privadas, acesse a organização **[Lorinmr-dev](https://github.com/Lorinmr-dev)**. Regras de negócio de produção, microsserviços privados e suítes de inspeção proprietárias são mantidos sob governança corporativa estrita.
+Para explorar as arquiteturas corporativas, sistemas de operações de campo em missões críticas e plataformas B2B privadas, acesse a organização **[PW-SYSTEM](https://github.com/PW-SYSTEM)**. Regras de negócio de produção, microsserviços privados e suítes de inspeção proprietárias são mantidos sob governança corporativa estrita.
 
 ---
 

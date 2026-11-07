@@ -8,7 +8,7 @@
   
   <p>
     <a href="https://github.com/welzim19-star"><img src="https://img.shields.io/badge/GitHub-welzim19--star-black?logo=github" alt="GitHub"></a>
-    <a href="https://github.com/Lorinmr-dev"><img src="https://img.shields.io/badge/Organization-Lorinmr--dev-0969da?logo=github" alt="Organization"></a>
+    <a href="https://github.com/PW-SYSTEM"><img src="https://img.shields.io/badge/Organization-PW--SYSTEM-0969da?logo=github" alt="Organization"></a>
     <img src="https://img.shields.io/badge/Focus-Android%20NDK%20%7C%20C%2B%2B%20%7C%20Low--Latency%20Streaming-brightgreen" alt="Focus">
     <img src="https://img.shields.io/badge/Location-Brazil-blue" alt="Location">
   </p>
@@ -170,7 +170,7 @@ Here is a curated selection of open-source architectures demonstrating core engi
 
 ### 🌐 Enterprise Governance & Commercial Systems
 
-For enterprise architectures, mission-critical field operations systems, and private B2B platforms, visit the **[Lorinmr-dev](https://github.com/Lorinmr-dev)** organization. Production business rules, private microservices, and proprietary inspection suites are maintained under strict enterprise governance.
+For enterprise architectures, mission-critical field operations systems, and private B2B platforms, visit the **[PW-SYSTEM](https://github.com/PW-SYSTEM)** organization. Production business rules, private microservices, and proprietary inspection suites are maintained under strict enterprise governance.
 
 ---
 
