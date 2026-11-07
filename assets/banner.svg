@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="100%" height="240" role="img" aria-label="Wel - Systems &amp; Low-Level Engineer">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c10" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#05080c" />
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff66" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#00ff66;#58a6ff;#00ff66" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.9">
+        <animate attributeName="stop-color" values="#58a6ff;#238636;#58a6ff" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#238636" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#238636;#00ff66;#238636" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Radar Scanline Gradient -->
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff66" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00ff66" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#00ff66" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#161b22" stroke-width="0.75" />
+    </pattern>
+
+    <style>
+      .term-title { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 26px; font-weight: 800; fill: #ffffff; letter-spacing: 2px; }
+      .term-prompt { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 20px; font-weight: 700; fill: #00ff66; }
+      .term-sub { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 13px; font-weight: 500; fill: #8b949e; letter-spacing: 0.5px; }
+      .pill-box { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 6px; }
+      .pill-title { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 10px; font-weight: 700; fill: #58a6ff; letter-spacing: 1px; }
+      .pill-val { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Courier New", monospace; font-size: 12px; font-weight: 600; fill: #e6edf3; }
+      .status-dot { fill: #00ff66; }
+      .cursor { fill: #00ff66; }
+    </style>
+  </defs>
+
+  <!-- Card Canvas -->
+  <rect x="2" y="2" width="846" height="236" rx="10" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect x="2" y="2" width="846" height="236" rx="10" fill="url(#cyberGrid)" />
+
+  <!-- Animated Scanline -->
+  <rect x="0" y="2" width="180" height="236" fill="url(#scanGrad)">
+    <animate attributeName="x" from="-180" to="850" dur="4.5s" repeatCount="indefinite" ease="linear" />
+  </rect>
+
+  <!-- Top Cyber Status Bar -->
+  <line x1="2" y1="38" x2="848" y2="38" stroke="#30363d" stroke-width="1" />
+  <circle cx="24" cy="20" r="4.5" fill="#f85149" />
+  <circle cx="40" cy="20" r="4.5" fill="#d29922" />
+  <circle cx="56" cy="20" r="4.5" fill="#238636" />
+  
+  <text x="75" y="24" font-family="ui-monospace, monospace" font-size="11" font-weight="600" fill="#8b949e" letter-spacing="1">SYSTEM_TELEMETRY // ARCHITECTURE: DEFENSIVE // FAIL-SECURE</text>
+
+  <!-- Live Pulse Node -->
+  <g transform="translate(730, 20)">
+    <circle cx="0" cy="0" r="4" class="status-dot">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <text x="12" y="4" font-family="ui-monospace, monospace" font-size="11" font-weight="700" fill="#00ff66">ONLINE</text>
+  </g>
+
+  <!-- Main Identity Tier -->
+  <g transform="translate(32, 85)">
+    <text x="0" y="0" class="term-prompt">&gt;</text>
+    <text x="22" y="0" class="term-title">WEL</text>
+    <text x="86" y="-2" font-family="ui-monospace, monospace" font-size="14" font-weight="700" fill="#58a6ff">// SYSTEMS ENGINEER</text>
+
+    <!-- Blinking Cursor -->
+    <rect x="330" y="-18" width="10" height="20" class="cursor">
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Subtitle Stack -->
+    <text x="0" y="28" class="term-sub">C++20 • ANDROID NDK r26 • JNI • REVERSE ENGINEERING • ZERO-TRUST ARCHITECTURE</text>
+  </g>
+
+  <!-- Telemetry Metrics Pods -->
+  <g transform="translate(32, 145)">
+    <!-- Pod 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="186" height="58" class="pill-box" />
+      <text x="14" y="22" class="pill-title">EXECUTION BACKBONE</text>
+      <text x="14" y="42" class="pill-val">C++20 / NDK &amp; JNI</text>
+    </g>
+
+    <!-- Pod 2 -->
+    <g transform="translate(200, 0)">
+      <rect width="186" height="58" class="pill-box" />
+      <text x="14" y="22" class="pill-title">HARDWARE STREAMING</text>
+      <text x="14" y="42" class="pill-val">Sub-12ms Zero-Copy</text>
+    </g>
+
+    <!-- Pod 3 -->
+    <g transform="translate(400, 0)">
+      <rect width="186" height="58" class="pill-box" />
+      <text x="14" y="22" class="pill-title">SECURITY GATEWAY</text>
+      <text x="14" y="42" class="pill-val">Fail-Secure &amp; ABAC</text>
+    </g>
+
+    <!-- Pod 4 -->
+    <g transform="translate(600, 0)">
+      <rect width="186" height="58" class="pill-box" />
+      <text x="14" y="22" class="pill-title">AUDIT LEDGER</text>
+      <text x="14" y="42" class="pill-val">SQLite WAL / SHA-256</text>
+    </g>
+  </g>
+</svg>

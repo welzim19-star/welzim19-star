@@ -3,8 +3,7 @@
 </div>
 
 <div align="center">
-  <h1>WEL</h1>
-  <p><strong>Android & Systems Software Engineer | Kotlin, C++20, NDK & JNI | Low-Level Architecture & Distributed Systems</strong></p>
+  <img src="assets/banner.svg" alt="Wel - Systems &amp; Low-Level Software Engineer" width="100%" />
   
   <p>
     <a href="https://github.com/welzim19-star"><img src="https://img.shields.io/badge/GitHub-welzim19--star-black?logo=github" alt="GitHub"></a>
@@ -71,6 +70,7 @@ Here is a curated selection of open-source architectures demonstrating core engi
       </ul>
       <p>
         <a href="https://github.com/welzim19-star/zero-ping-mirror/releases/latest"><img src="https://img.shields.io/badge/Release-APK%20Download-brightgreen?logo=android" alt="APK"></a>
+        <a href="https://github.com/welzim19-star/zero-ping-mirror/actions/workflows/build-apk.yml"><img src="https://github.com/welzim19-star/zero-ping-mirror/actions/workflows/build-apk.yml/badge.svg" alt="CI"></a>
         <img src="https://img.shields.io/badge/Latency-11.4ms-brightgreen" alt="Latency">
         <img src="https://img.shields.io/badge/CPU%20Usage-%3C3.5%25-blue" alt="CPU">
       </p>
@@ -162,6 +162,7 @@ Here is a curated selection of open-source architectures demonstrating core engi
         <li>Biometric and forensic audit trail sealed with GPS and device hashes</li>
       </ul>
       <p>
+        <a href="https://github.com/welzim19-star/pw-opsdesk-showcase#-production-operational-showcase"><img src="https://img.shields.io/badge/Showcase-Live%20Screenshots-blueviolet" alt="Screenshots"></a>
         <img src="https://img.shields.io/badge/SLA-%3E12k%20msg%2Fsec-brightgreen" alt="SLA">
         <img src="https://img.shields.io/badge/Standard-Cherwell%20Compliant-blue" alt="Standard">
       </p>

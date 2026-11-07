@@ -3,8 +3,7 @@
 </div>
 
 <div align="center">
-  <h1>WEL</h1>
-  <p><strong>Engenheiro de Software Android & Sistemas | Kotlin, C++20, NDK & JNI | Arquitetura de Baixo Nível & Sistemas Distribuídos</strong></p>
+  <img src="assets/banner.svg" alt="Wel - Engenheiro de Software Android &amp; Sistemas" width="100%" />
   
   <p>
     <a href="https://github.com/welzim19-star"><img src="https://img.shields.io/badge/GitHub-welzim19--star-black?logo=github" alt="GitHub"></a>
@@ -70,6 +69,8 @@ Seleção de projetos de código aberto que demonstram competências práticas d
         <li>Captura de tela zero-copy via <code>MediaProjection</code> nativo do Android</li>
       </ul>
       <p>
+        <a href="https://github.com/welzim19-star/zero-ping-mirror/releases/latest"><img src="https://img.shields.io/badge/Release-Download%20APK-brightgreen?logo=android" alt="APK"></a>
+        <a href="https://github.com/welzim19-star/zero-ping-mirror/actions/workflows/build-apk.yml"><img src="https://github.com/welzim19-star/zero-ping-mirror/actions/workflows/build-apk.yml/badge.svg" alt="CI"></a>
         <img src="https://img.shields.io/badge/Lat%C3%AAncia-11.4ms-brightgreen" alt="Latência">
         <img src="https://img.shields.io/badge/Uso%20de%20CPU-%3C3.5%25-blue" alt="CPU">
       </p>
@@ -161,6 +162,7 @@ Seleção de projetos de código aberto que demonstram competências práticas d
         <li>Trilha de auditoria pericial e biométrica selada por coordenadas e hash de hardware</li>
       </ul>
       <p>
+        <a href="https://github.com/welzim19-star/pw-opsdesk-showcase#-vitrine-operacional-em-produ%C3%A7%C3%A3o"><img src="https://img.shields.io/badge/Vitrine-Prints%20Reais-blueviolet" alt="Prints"></a>
         <img src="https://img.shields.io/badge/SLA-%3E12k%20msg%2Fseg-brightgreen" alt="SLA">
         <img src="https://img.shields.io/badge/Padr%C3%A3o-Compat%C3%ADvel%20Cherwell-blue" alt="Padrão">
       </p>
