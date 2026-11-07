@@ -6,13 +6,13 @@
   <img src="assets/banner.svg" alt="Wel - Engenheiro de Software Android &amp; Sistemas" width="100%" />
   <br/><br/>
   <a href="https://github.com/welzim19-star">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00FF66&center=true&vCenter=true&width=750&lines=Full-Spectrum+Android:+Jetpack+Compose+ao+NDK+r26;C%2B%2B20+%2F+JNI+%E2%80%A2+Clean+Architecture+%E2%80%A2+MVI%2FMVVM;Streaming+1080p60+por+Hardware+(Sub-12ms+Zero-Copy);Arquiteturas+Fail-Secure+%E2%80%A2+DevSecOps+Padr%C3%A3o+Banc%C3%A1rio" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00FF66&center=true&vCenter=true&width=750&lines=Engenheiro+Android+%26+Sistemas:+Compose+ao+NDK+r26;C%2B%2B20+%2F+JNI+%E2%80%A2+Clean+Architecture+%E2%80%A2+MVI%2FMVVM;Streaming+1080p60+por+Hardware+(Sub-12ms+Zero-Copy);Arquiteturas+Fail-Secure+%E2%80%A2+DevSecOps+Padr%C3%A3o+Banc%C3%A1rio" alt="Typing SVG" />
   </a>
   <br/><br/>
   <p>
     <a href="https://github.com/welzim19-star"><img src="https://img.shields.io/badge/GitHub-welzim19--star-black?logo=github" alt="GitHub"></a>
     <a href="https://github.com/PW-SYSTEM"><img src="https://img.shields.io/badge/Organização-PW--SYSTEM-0969da?logo=github" alt="Organização"></a>
-    <img src="https://img.shields.io/badge/Foco-Full--Spectrum%20Android%20%7C%20C%2B%2B20%20%7C%20NDK%20r26-brightgreen" alt="Foco">
+    <img src="https://img.shields.io/badge/Foco-Android%20%26%20Sistemas%20%7C%20Compose%20%26%20NDK%20r26-brightgreen" alt="Foco">
     <img src="https://komarev.com/ghpvc/?username=welzim19-star&label=RADAR+VIEWS&color=00ff66&style=flat-square" alt="Radar Views">
     <img src="https://img.shields.io/badge/Localização-Brasil-blue" alt="Localização">
   </p>

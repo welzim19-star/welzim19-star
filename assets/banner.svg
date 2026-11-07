@@ -73,10 +73,10 @@
   <g transform="translate(32, 85)">
     <text x="0" y="0" class="term-prompt">&gt;</text>
     <text x="22" y="0" class="term-title">WEL</text>
-    <text x="86" y="-2" font-family="ui-monospace, monospace" font-size="14" font-weight="700" fill="#58a6ff">// FULL-SPECTRUM ANDROID &amp; SYSTEMS</text>
+    <text x="86" y="-2" font-family="ui-monospace, monospace" font-size="14" font-weight="700" fill="#58a6ff">// ANDROID &amp; SYSTEMS ENGINEER</text>
 
     <!-- Blinking Cursor -->
-    <rect x="450" y="-18" width="10" height="20" class="cursor">
+    <rect x="395" y="-18" width="10" height="20" class="cursor">
       <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite" />
     </rect>
 
