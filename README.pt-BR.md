@@ -55,6 +55,7 @@ Seleção de projetos de código aberto que demonstram competências práticas d
         <li>Engenharia reversa do sistema de arquivos FAT binário do Sega Dreamcast VMU</li>
       </ul>
       <p>
+        <a href="https://github.com/welzim19-star/capivara-emu/releases/latest"><img src="https://img.shields.io/badge/Release-APK%20Download-brightgreen?logo=android" alt="APK"></a>
         <img src="https://img.shields.io/badge/Performance-60FPS%20Est%C3%A1vel-brightgreen" alt="FPS">
         <img src="https://img.shields.io/badge/Lat%C3%AAncia%20de%20Entrada-%3C4.2ms-blue" alt="Latência">
       </p>
@@ -129,6 +130,7 @@ Seleção de projetos de código aberto que demonstram competências práticas d
         <li>Varredura sub-segundo de sub-rede e persistência SQLite WAL</li>
       </ul>
       <p>
+        <a href="https://github.com/welzim19-star/bastion-core/releases/latest"><img src="https://img.shields.io/badge/Release-Windows%20EXE-blue?logo=windows" alt="EXE"></a>
         <img src="https://img.shields.io/badge/Testes-13%20Aprovados-brightgreen" alt="Testes">
         <img src="https://img.shields.io/badge/Persist%C3%AAncia-SQLite%20WAL-blue" alt="Persistência">
       </p>
