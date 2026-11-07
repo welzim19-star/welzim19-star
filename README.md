@@ -133,6 +133,7 @@ Here is a curated selection of open-source architectures demonstrating core engi
       </ul>
       <p>
         <a href="https://github.com/welzim19-star/bastion-core/releases/latest"><img src="https://img.shields.io/badge/Release-Windows%20EXE-blue?logo=windows" alt="EXE"></a>
+        <a href="https://github.com/welzim19-star/bastion-core/actions/workflows/ci.yml"><img src="https://github.com/welzim19-star/bastion-core/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
         <img src="https://img.shields.io/badge/Tests-13%20Passing-brightgreen" alt="Tests">
         <img src="https://img.shields.io/badge/Persistence-SQLite%20WAL-blue" alt="Persistence">
       </p>
