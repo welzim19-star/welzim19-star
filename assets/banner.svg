@@ -73,15 +73,15 @@
   <g transform="translate(32, 85)">
     <text x="0" y="0" class="term-prompt">&gt;</text>
     <text x="22" y="0" class="term-title">WEL</text>
-    <text x="86" y="-2" font-family="ui-monospace, monospace" font-size="14" font-weight="700" fill="#58a6ff">// SYSTEMS ENGINEER</text>
+    <text x="86" y="-2" font-family="ui-monospace, monospace" font-size="14" font-weight="700" fill="#58a6ff">// FULL-SPECTRUM ANDROID &amp; SYSTEMS</text>
 
     <!-- Blinking Cursor -->
-    <rect x="330" y="-18" width="10" height="20" class="cursor">
+    <rect x="450" y="-18" width="10" height="20" class="cursor">
       <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite" />
     </rect>
 
     <!-- Subtitle Stack -->
-    <text x="0" y="28" class="term-sub">C++20 • ANDROID NDK r26 • JNI • REVERSE ENGINEERING • ZERO-TRUST ARCHITECTURE</text>
+    <text x="0" y="28" class="term-sub">KOTLIN • JETPACK COMPOSE • C++20 • NDK r26 • JNI • ZERO-COPY GPU STREAMING</text>
   </g>
 
   <!-- Telemetry Metrics Pods -->
@@ -89,8 +89,8 @@
     <!-- Pod 1 -->
     <g transform="translate(0, 0)">
       <rect width="186" height="58" class="pill-box" />
-      <text x="14" y="22" class="pill-title">EXECUTION BACKBONE</text>
-      <text x="14" y="42" class="pill-val">C++20 / NDK &amp; JNI</text>
+      <text x="14" y="22" class="pill-title">ANDROID ARCHITECTURE</text>
+      <text x="14" y="42" class="pill-val">Compose / MVI / Clean</text>
     </g>
 
     <!-- Pod 2 -->
@@ -103,15 +103,15 @@
     <!-- Pod 3 -->
     <g transform="translate(400, 0)">
       <rect width="186" height="58" class="pill-box" />
-      <text x="14" y="22" class="pill-title">SECURITY GATEWAY</text>
-      <text x="14" y="42" class="pill-val">Fail-Secure &amp; ABAC</text>
+      <text x="14" y="22" class="pill-title">NATIVE &amp; SYSTEMS CORE</text>
+      <text x="14" y="42" class="pill-val">C++20 / NDK &amp; JNI</text>
     </g>
 
     <!-- Pod 4 -->
     <g transform="translate(600, 0)">
       <rect width="186" height="58" class="pill-box" />
-      <text x="14" y="22" class="pill-title">AUDIT LEDGER</text>
-      <text x="14" y="42" class="pill-val">SQLite WAL / SHA-256</text>
+      <text x="14" y="22" class="pill-title">AUDIT &amp; DEVSECOPS</text>
+      <text x="14" y="42" class="pill-val">Fail-Secure / SQLite WAL</text>
     </g>
   </g>
 </svg>

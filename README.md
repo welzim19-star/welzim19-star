@@ -6,13 +6,13 @@
   <img src="assets/banner.svg" alt="Wel - Systems &amp; Low-Level Software Engineer" width="100%" />
   <br/><br/>
   <a href="https://github.com/welzim19-star">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00FF66&center=true&vCenter=true&width=750&lines=Android+NDK+r26+%E2%80%A2+C%2B%2B20+%2F+JNI+%E2%80%A2+Low-Level+Systems;Hardware-Accelerated+1080p60+Streaming+(Sub-12ms+Zero-Copy);Fail-Secure+Architectures+%E2%80%A2+Bank-Grade+DevSecOps" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00FF66&center=true&vCenter=true&width=750&lines=Full-Spectrum+Android:+Jetpack+Compose+to+NDK+r26;C%2B%2B20+%2F+JNI+%E2%80%A2+Clean+Architecture+%E2%80%A2+MVI%2FMVVM;Hardware-Accelerated+1080p60+Streaming+(Sub-12ms+Zero-Copy);Fail-Secure+Architectures+%E2%80%A2+Bank-Grade+DevSecOps" alt="Typing SVG" />
   </a>
   <br/><br/>
   <p>
     <a href="https://github.com/welzim19-star"><img src="https://img.shields.io/badge/GitHub-welzim19--star-black?logo=github" alt="GitHub"></a>
     <a href="https://github.com/PW-SYSTEM"><img src="https://img.shields.io/badge/Organization-PW--SYSTEM-0969da?logo=github" alt="Organization"></a>
-    <img src="https://img.shields.io/badge/Focus-Android%20NDK%20%7C%20C%2B%2B%20%7C%20Low--Latency%20Streaming-brightgreen" alt="Focus">
+    <img src="https://img.shields.io/badge/Focus-Full--Spectrum%20Android%20%7C%20C%2B%2B20%20%7C%20NDK%20r26-brightgreen" alt="Focus">
     <img src="https://komarev.com/ghpvc/?username=welzim19-star&label=RADAR+VIEWS&color=00ff66&style=flat-square" alt="Radar Views">
     <img src="https://img.shields.io/badge/Location-Brazil-blue" alt="Location">
   </p>
@@ -35,11 +35,12 @@ I engineer resilient, audit-grade software with a strong focus on defensive prog
 
 | Domain | Core Technologies & Tooling | Architectural Patterns |
 | :--- | :--- | :--- |
-| **Systems & Low-Level** | C++20, x86_64 Detours (MinHook), NDK r26, JNI, Kotlin, Reverse Engineering, POSIX, Memory Mapping (`mmap`) | Zero-Copy Buffers, In-Memory Detours, Binary FAT Filesystems, Native ABIs |
-| **Backend & Distributed** | Python (FastAPI, Asyncio), Node.js (ESM), WebSockets (Socket.io), REST APIs | Event-Driven Architecture, ABAC Policies, Fail-Closed Gates, C2 Hubs |
-| **Security & DevSecOps** | Envelope Encryption (KMS), AES-256-GCM, HMAC Integrity, Bandit, Ruff, SAST/SCA | Zero-Trust Pipelines, Audit Trails (JSONL / SQLite WAL), PII Sanitization |
-| **Mobile & Frontend** | Android 14 (API 34), React 18, TypeScript, Tailwind CSS, Tauri, Capacitor | Scoped Storage (SAF), Hardware Video Streaming, Offline-First Sync |
-| **Storage & Data** | SQLite (WAL Mode), PostgreSQL, Redis, In-Memory Ring Buffers | ACID Atomic Journaling, Idempotent Event Reconciliation |
+| **Modern Android (High-Level)** | Kotlin (Coroutines, StateFlow), Jetpack Compose, Android 14 (API 34), Hilt (DI), Room, Retrofit, WorkManager, Scoped Storage (SAF) | Clean Architecture, MVI / MVVM, Reactive State Streams, Offline-First Sync |
+| **Native & Low-Level Systems** | C++20, Android NDK (r26b), JNI (Java Native Interface), MediaCodec (GPU H.264), OpenGL ES 3.0, POSIX, `mmap`, MinHook x64 | Zero-Copy Direct Framebuffers, Sub-12ms Streaming, Memory-Mapped FAT FS, Native ABIs |
+| **Security & DevSecOps** | Automated CI/CD (GitHub Actions), KMS Envelope Encryption, AES-256-GCM, HMAC, Bandit SAST, Ruff, Pytest | Zero-Trust Gates, Fail-Secure Defaults, Cryptographic Ledgers (SHA-256 Chained) |
+| **Backend & Distributed** | Python 3.12+ (FastAPI, Asyncio), Node.js (ESM), WebSockets (Socket.io), RESTful APIs | Event-Driven Microservices, Token-Bucket Rate Limiting, ABAC Governance |
+| **Storage & Persistence** | SQLite (WAL Mode), PostgreSQL, Redis, In-Memory Ring Buffers | ACID Atomic Journaling, Idempotent Event Reconciliation, High-Throughput I/O |
+| **Cross-Platform & Hybrid** | React 18, TypeScript, Tailwind CSS, Tauri, Capacitor | Galvanic UI/Engine Decoupling, Headless WebView Interop |
 
 ---
 

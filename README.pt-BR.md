@@ -6,13 +6,13 @@
   <img src="assets/banner.svg" alt="Wel - Engenheiro de Software Android &amp; Sistemas" width="100%" />
   <br/><br/>
   <a href="https://github.com/welzim19-star">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00FF66&center=true&vCenter=true&width=750&lines=Android+NDK+r26+%E2%80%A2+C%2B%2B20+%2F+JNI+%E2%80%A2+Sistemas+de+Baixo+N%C3%ADvel;Streaming+1080p60+por+Hardware+(Sub-12ms+Zero-Copy);Arquiteturas+Fail-Secure+%E2%80%A2+DevSecOps+Padr%C3%A3o+Banc%C3%A1rio" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00FF66&center=true&vCenter=true&width=750&lines=Full-Spectrum+Android:+Jetpack+Compose+ao+NDK+r26;C%2B%2B20+%2F+JNI+%E2%80%A2+Clean+Architecture+%E2%80%A2+MVI%2FMVVM;Streaming+1080p60+por+Hardware+(Sub-12ms+Zero-Copy);Arquiteturas+Fail-Secure+%E2%80%A2+DevSecOps+Padr%C3%A3o+Banc%C3%A1rio" alt="Typing SVG" />
   </a>
   <br/><br/>
   <p>
     <a href="https://github.com/welzim19-star"><img src="https://img.shields.io/badge/GitHub-welzim19--star-black?logo=github" alt="GitHub"></a>
     <a href="https://github.com/PW-SYSTEM"><img src="https://img.shields.io/badge/Organização-PW--SYSTEM-0969da?logo=github" alt="Organização"></a>
-    <img src="https://img.shields.io/badge/Foco-Android%20NDK%20%7C%20C%2B%2B%20%7C%20Streaming%20Baixa%20Lat%C3%AAncia-brightgreen" alt="Foco">
+    <img src="https://img.shields.io/badge/Foco-Full--Spectrum%20Android%20%7C%20C%2B%2B20%20%7C%20NDK%20r26-brightgreen" alt="Foco">
     <img src="https://komarev.com/ghpvc/?username=welzim19-star&label=RADAR+VIEWS&color=00ff66&style=flat-square" alt="Radar Views">
     <img src="https://img.shields.io/badge/Localização-Brasil-blue" alt="Localização">
   </p>
@@ -35,11 +35,12 @@ Desenvolvo software resiliente e auditável com forte ênfase em programação d
 
 | Domínio | Tecnologias & Ferramental | Padrões Arquiteturais |
 | :--- | :--- | :--- |
-| **Sistemas & Baixo Nível** | C++20, Detours x86_64 (MinHook), NDK r26, JNI, Kotlin, Engenharia Reversa, POSIX, Mapeamento de Memória (`mmap`) | Buffers Zero-Copy, Injeção em Memória, Sistemas FAT Binários, ABIs Nativas |
-| **Backend & Sistemas Distribuídos** | Python (FastAPI, Asyncio), Node.js (ESM), WebSockets (Socket.io), APIs REST | Arquitetura Orientada a Eventos, Políticas ABAC, Portais Fail-Closed, Hubs C2 |
-| **Segurança & DevSecOps** | Criptografia Envelope (KMS), AES-256-GCM, Integridade HMAC, Bandit, Ruff, SAST/SCA | Pipelines Zero-Trust, Trilhas de Auditoria (JSONL / SQLite WAL), Sanitização de Dados |
-| **Mobile & Frontend** | Android 14 (API 34), React 18, TypeScript, Tailwind CSS, Tauri, Capacitor | Armazenamento com Escopo (SAF), Streaming de Vídeo por Hardware, Sincronização Offline-First |
-| **Armazenamento & Dados** | SQLite (Modo WAL), PostgreSQL, Redis, Buffers Circulares em Memória | Registro Atômico ACID, Reconciliação Idempotente de Eventos |
+| **Android Moderno (Alto Nível)** | Kotlin (Coroutines, StateFlow), Jetpack Compose, Android 14 (API 34), Hilt (Injeção de Dependência), Room, Retrofit, WorkManager, Scoped Storage (SAF) | Clean Architecture, MVI / MVVM, Fluxos de Estado Reativos, Sincronização Offline-First |
+| **Sistemas Nativos & Baixo Nível** | C++20, Android NDK (r26b), JNI (Java Native Interface), MediaCodec (GPU H.264), OpenGL ES 3.0, POSIX, `mmap`, MinHook x64 | Buffers Diretos Zero-Copy, Streaming Sub-12ms, Sistemas de Arquivos FAT em Memória, ABIs Nativas |
+| **Segurança & DevSecOps** | CI/CD Automatizado (GitHub Actions), Criptografia Envelope (KMS), AES-256-GCM, HMAC, Bandit SAST, Ruff, Pytest | Portais Zero-Trust, Padrões Fail-Secure, Livro-Razão Criptográfico (Cadeia SHA-256) |
+| **Backend & Distribuído** | Python 3.12+ (FastAPI, Asyncio), Node.js (ESM), WebSockets (Socket.io), APIs RESTful | Microserviços Orientados a Eventos, Rate Limiting Token-Bucket, Governança ABAC |
+| **Armazenamento & Persistência** | SQLite (Modo WAL), PostgreSQL, Redis, Buffers Circulares em Memória | Registro Atômico ACID, Reconciliação Idempotente de Eventos, I/O de Alta Vazão |
+| **Multiplataforma & Híbrido** | React 18, TypeScript, Tailwind CSS, Tauri, Capacitor | Desacoplamento Galvânico UI/Engine, Interoperabilidade Headless WebView |
 
 ---
 
