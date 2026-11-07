@@ -4,11 +4,16 @@
 
 <div align="center">
   <img src="assets/banner.svg" alt="Wel - Engenheiro de Software Android &amp; Sistemas" width="100%" />
-  
+  <br/><br/>
+  <a href="https://github.com/welzim19-star">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00FF66&center=true&vCenter=true&width=750&lines=Android+NDK+r26+%E2%80%A2+C%2B%2B20+%2F+JNI+%E2%80%A2+Sistemas+de+Baixo+N%C3%ADvel;Streaming+1080p60+por+Hardware+(Sub-12ms+Zero-Copy);Arquiteturas+Fail-Secure+%E2%80%A2+DevSecOps+Padr%C3%A3o+Banc%C3%A1rio" alt="Typing SVG" />
+  </a>
+  <br/><br/>
   <p>
     <a href="https://github.com/welzim19-star"><img src="https://img.shields.io/badge/GitHub-welzim19--star-black?logo=github" alt="GitHub"></a>
     <a href="https://github.com/PW-SYSTEM"><img src="https://img.shields.io/badge/Organização-PW--SYSTEM-0969da?logo=github" alt="Organização"></a>
     <img src="https://img.shields.io/badge/Foco-Android%20NDK%20%7C%20C%2B%2B%20%7C%20Streaming%20Baixa%20Lat%C3%AAncia-brightgreen" alt="Foco">
+    <img src="https://komarev.com/ghpvc/?username=welzim19-star&label=RADAR+VIEWS&color=00ff66&style=flat-square" alt="Radar Views">
     <img src="https://img.shields.io/badge/Localização-Brasil-blue" alt="Localização">
   </p>
 </div>
@@ -172,6 +177,16 @@ Seleção de projetos de código aberto que demonstram competências práticas d
     </td>
   </tr>
 </table>
+
+---
+
+### 📊 Telemetria de Atividade & Engenharia em Tempo Real
+
+<div align="center">
+  <a href="https://github.com/welzim19-star">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=welzim19-star&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
+  </a>
+</div>
 
 ---
 
