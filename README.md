@@ -117,6 +117,7 @@ Here is a curated selection of open-source architectures demonstrating core engi
         <li>Zero stack trace disclosure and strict fail-secure defaults</li>
       </ul>
       <p>
+        <a href="https://github.com/welzim19-star/archon-v/actions/workflows/ci.yml"><img src="https://github.com/welzim19-star/archon-v/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
         <img src="https://img.shields.io/badge/Coverage-%3E85%25-brightgreen" alt="Coverage">
         <img src="https://img.shields.io/badge/SAST-Bandit%20Pass-blue" alt="Bandit">
       </p>

@@ -117,6 +117,7 @@ Seleção de projetos de código aberto que demonstram competências práticas d
         <li>Zero vazamento de stack traces e encerramento estrito em caso de falha</li>
       </ul>
       <p>
+        <a href="https://github.com/welzim19-star/archon-v/actions/workflows/ci.yml"><img src="https://github.com/welzim19-star/archon-v/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
         <img src="https://img.shields.io/badge/Cobertura-%3E85%25-brightgreen" alt="Cobertura">
         <img src="https://img.shields.io/badge/SAST-Bandit%20Aprovado-blue" alt="Bandit">
       </p>
