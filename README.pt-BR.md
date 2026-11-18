@@ -124,6 +124,7 @@ Seleção de projetos de código aberto que demonstram competências práticas d
         <li>Zero vazamento de stack traces e encerramento estrito em caso de falha</li>
       </ul>
       <p>
+        <a href="https://archon-v-playground.onrender.com"><img src="https://img.shields.io/badge/Demo%20ao%20Vivo-Playground-00C7B7?logo=render&logoColor=white" alt="Demo ao Vivo"></a>
         <a href="https://github.com/welzim19-star/archon-v/actions/workflows/ci.yml"><img src="https://github.com/welzim19-star/archon-v/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
         <img src="https://img.shields.io/badge/Cobertura-%3E85%25-brightgreen" alt="Cobertura">
         <img src="https://img.shields.io/badge/SAST-Bandit%20Aprovado-blue" alt="Bandit">
@@ -139,6 +140,7 @@ Seleção de projetos de código aberto que demonstram competências práticas d
         <li>Varredura sub-segundo de sub-rede e persistência SQLite WAL</li>
       </ul>
       <p>
+        <a href="https://bastion-core-dashboard.onrender.com"><img src="https://img.shields.io/badge/Demo%20ao%20Vivo-Console-00C7B7?logo=render&logoColor=white" alt="Demo ao Vivo"></a>
         <a href="https://github.com/welzim19-star/bastion-core/releases/latest"><img src="https://img.shields.io/badge/Release-Windows%20EXE-blue?logo=windows" alt="EXE"></a>
         <a href="https://github.com/welzim19-star/bastion-core/actions/workflows/ci.yml"><img src="https://github.com/welzim19-star/bastion-core/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
         <img src="https://img.shields.io/badge/Testes-13%20Aprovados-brightgreen" alt="Testes">
@@ -171,6 +173,7 @@ Seleção de projetos de código aberto que demonstram competências práticas d
         <li>Trilha de auditoria pericial e biométrica selada por coordenadas e hash de hardware</li>
       </ul>
       <p>
+        <a href="https://pw-opsdesk-showcase.onrender.com"><img src="https://img.shields.io/badge/Demo%20ao%20Vivo-OpsDesk-00C7B7?logo=render&logoColor=white" alt="Demo ao Vivo"></a>
         <a href="https://github.com/welzim19-star/pw-opsdesk-showcase#-vitrine-operacional-em-produ%C3%A7%C3%A3o"><img src="https://img.shields.io/badge/Vitrine-Prints%20Reais-blueviolet" alt="Prints"></a>
         <img src="https://img.shields.io/badge/SLA-%3E12k%20msg%2Fseg-brightgreen" alt="SLA">
         <img src="https://img.shields.io/badge/Padr%C3%A3o-Compat%C3%ADvel%20Cherwell-blue" alt="Padrão">

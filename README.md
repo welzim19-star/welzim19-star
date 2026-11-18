@@ -124,6 +124,7 @@ Here is a curated selection of open-source architectures demonstrating core engi
         <li>Zero stack trace disclosure and strict fail-secure defaults</li>
       </ul>
       <p>
+        <a href="https://archon-v-playground.onrender.com"><img src="https://img.shields.io/badge/Live%20Demo-Playground-00C7B7?logo=render&logoColor=white" alt="Live Demo"></a>
         <a href="https://github.com/welzim19-star/archon-v/actions/workflows/ci.yml"><img src="https://github.com/welzim19-star/archon-v/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
         <img src="https://img.shields.io/badge/Coverage-%3E85%25-brightgreen" alt="Coverage">
         <img src="https://img.shields.io/badge/SAST-Bandit%20Pass-blue" alt="Bandit">
@@ -139,6 +140,7 @@ Here is a curated selection of open-source architectures demonstrating core engi
         <li>Sub-second subnet sweep with SQLite WAL persistence</li>
       </ul>
       <p>
+        <a href="https://bastion-core-dashboard.onrender.com"><img src="https://img.shields.io/badge/Live%20Demo-Console-00C7B7?logo=render&logoColor=white" alt="Live Demo"></a>
         <a href="https://github.com/welzim19-star/bastion-core/releases/latest"><img src="https://img.shields.io/badge/Release-Windows%20EXE-blue?logo=windows" alt="EXE"></a>
         <a href="https://github.com/welzim19-star/bastion-core/actions/workflows/ci.yml"><img src="https://github.com/welzim19-star/bastion-core/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
         <img src="https://img.shields.io/badge/Tests-13%20Passing-brightgreen" alt="Tests">
@@ -171,6 +173,7 @@ Here is a curated selection of open-source architectures demonstrating core engi
         <li>Biometric and forensic audit trail sealed with GPS and device hashes</li>
       </ul>
       <p>
+        <a href="https://pw-opsdesk-showcase.onrender.com"><img src="https://img.shields.io/badge/Live%20Demo-OpsDesk-00C7B7?logo=render&logoColor=white" alt="Live Demo"></a>
         <a href="https://github.com/welzim19-star/pw-opsdesk-showcase#-production-operational-showcase"><img src="https://img.shields.io/badge/Showcase-Live%20Screenshots-blueviolet" alt="Screenshots"></a>
         <img src="https://img.shields.io/badge/SLA-%3E12k%20msg%2Fsec-brightgreen" alt="SLA">
         <img src="https://img.shields.io/badge/Standard-Cherwell%20Compliant-blue" alt="Standard">
