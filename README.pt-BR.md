@@ -180,6 +180,24 @@ Seleção de projetos de código aberto que demonstram competências práticas d
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/pw-gestao-predial-showcase">🏗️ PW Gestão Predial</a></h4>
+      <p><em>Gestão Predial Multiunidade, Estoque em Campo e App Android Offline-First.</em></p>
+      <ul>
+        <li>Back-end FastAPI + PostgreSQL/SQLite integrado a APK Kotlin + Jetpack Compose</li>
+        <li>Isolamento galvânico em camadas: RBAC estrito, cotas atômicas e <code>AuditLedger</code> imutável</li>
+        <li>Fila offline idempotente <code>Outbox</code> e sincronização de avatar entre Web e APK</li>
+        <li>Relatórios mensais executivos em PDF e 5 temas visuais personalizáveis</li>
+      </ul>
+      <p>
+        <a href="https://pw-gestao-predial.onrender.com"><img src="https://img.shields.io/badge/Demo%20ao%20Vivo-Render-00C7B7?logo=render&logoColor=white" alt="Demo ao Vivo"></a>
+        <a href="https://github.com/welzim19-star/pw-gestao-predial-showcase"><img src="https://img.shields.io/badge/Vitrine-Capturas-blueviolet" alt="Vitrine"></a>
+        <img src="https://img.shields.io/badge/Stack-FastAPI%20%2B%20Compose-blue" alt="Stack">
+      </p>
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
 </table>
 
 ---

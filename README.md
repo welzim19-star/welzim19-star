@@ -180,6 +180,24 @@ Here is a curated selection of open-source architectures demonstrating core engi
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/welzim19-star/pw-gestao-predial-showcase">🏗️ PW Gestão Predial</a></h4>
+      <p><em>Multi-Site Facilities Maintenance, Field Inventory &amp; Offline-First Android Showcase.</em></p>
+      <ul>
+        <li>FastAPI + PostgreSQL/SQLite backend paired with Kotlin + Jetpack Compose APK</li>
+        <li>Layered galvanic isolation: strict RBAC, atomic quotas &amp; immutable <code>AuditLedger</code></li>
+        <li>Idempotent offline <code>Outbox</code> sync queue and cross-client profile avatar sync</li>
+        <li>Executive monthly PDF reports and 5 customizable UI skins</li>
+      </ul>
+      <p>
+        <a href="https://pw-gestao-predial.onrender.com"><img src="https://img.shields.io/badge/Live%20Demo-Render-00C7B7?logo=render&logoColor=white" alt="Live Demo"></a>
+        <a href="https://github.com/welzim19-star/pw-gestao-predial-showcase"><img src="https://img.shields.io/badge/Showcase-Screenshots-blueviolet" alt="Showcase"></a>
+        <img src="https://img.shields.io/badge/Stack-FastAPI%20%2B%20Compose-blue" alt="Stack">
+      </p>
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
 </table>
 
 ---
